@@ -1,0 +1,29 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Go test output
+*.test
+*.out
+
+# Go module cache
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
